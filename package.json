@@ -3,11 +3,10 @@
   "private": true,
   "packageManager": "pnpm@8.10.2",
   "scripts": {
-    "build": "npm run static && cross-env NODE_ENV=production vite-ssg build && esno ./scripts/rss.ts && cp _dist_redirects dist/_redirects",
+    "build": "npm run static && cross-env NODE_ENV=production vite-ssg build && esno ./scripts/rss.ts",
     "dev": "vite --port 3333 --open",
     "preview": "vite preview",
-    "static": "rimraf temp && degit antfu/static temp --force && esno scripts/copy-sponsors",
-    "redirects": "esno scripts/redirects.ts",
+    "static": "rimraf temp && degit antfu/static temp --force",
     "lint": "eslint .",
     "compress": "esno scripts/img-compress-staged.ts"
   },
@@ -16,6 +15,7 @@
     "dayjs": "^1.11.10",
     "floating-vue": "2.0.0-beta.24",
     "nprogress": "^0.2.0",
+    "pug": "^3.0.2",
     "vue": "^3.3.8",
     "vue-router": "4.2.5",
     "vue-router-better-scroller": "^0.0.0"
@@ -52,6 +52,7 @@
     "pnpm": "^8.10.2",
     "prompts": "^2.4.2",
     "rimraf": "^5.0.5",
+    "sass": "^1.69.5",
     "sharp": "0.32.6",
     "shikiji": "^0.6.12",
     "simple-git": "^3.20.0",

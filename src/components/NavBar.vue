@@ -30,34 +30,34 @@ const { y: scroll } = useWindowScroll()
     <nav class="nav">
       <div class="spacer" />
       <div class="right" print:op0>
-        <RouterLink to="/posts" title="Blog">
+        <RouterLink to="/blog" title="Blog">
           <span class="lt-md:hidden">Blog</span>
           <div i-ri-article-line md:hidden />
         </RouterLink>
-        <RouterLink to="/projects" title="Projects">
+        <!-- <RouterLink to="/projects" title="Projects">
           <span class="lt-md:hidden">Projects</span>
           <div i-ri-lightbulb-line class="md:hidden" />
-        </RouterLink>
-        <RouterLink to="/talks" class="lt-md:hidden" title="Talks">
+        </RouterLink> -->
+        <!-- <RouterLink to="/talks" class="lt-md:hidden" title="Talks">
           Talks
         </RouterLink>
         <RouterLink to="/podcasts" class="lt-md:hidden" title="Podcasts">
           Podcasts
-        </RouterLink>
-        <RouterLink to="/demos" title="Demos">
-          <span class="lt-md:hidden">Demos</span>
+        </RouterLink> -->
+        <RouterLink to="/creations" title="Creations">
+          <span class="lt-md:hidden">Creations</span>
           <div i-ri-screenshot-line class="md:hidden" />
         </RouterLink>
-        <RouterLink to="/chat" title="Let's Chat">
+        <!-- <RouterLink to="/chat" title="Let's Chat">
           <div i-ri-chat-1-line />
         </RouterLink>
         <RouterLink to="/sponsors-list" title="Sponsors">
           <div i-ri-user-heart-line />
-        </RouterLink>
-        <a href="https://twitter.com/antfu7" target="_blank" title="Twitter" class="lt-md:hidden">
+        </RouterLink> -->
+        <a href="https://twitter.com/sdhnshu0" target="_blank" title="Twitter" class="lt-md:hidden">
           <FeatherTwitter />
         </a>
-        <a href="https://github.com/antfu" target="_blank" title="GitHub" class="lt-md:hidden">
+        <a href="https://github.com/sdhnshu" target="_blank" title="GitHub" class="lt-md:hidden">
           <div i-uil-github-alt />
         </a>
         <a href="/feed.xml" target="_blank" title="RSS" class="lt-md:hidden">
