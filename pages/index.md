@@ -5,17 +5,13 @@ image: https://antfu.me/og.png
 plum: true
 ---
 
-Hey there! I'm a tech entrepreneur deeply rooted in the world of software development, with a journey that's been anything but ordinary.
+Embark on a journey with me, a tech entrepreneur whose path has been as exhilarating as it is unorthodox. In the pulsating heart of software development, I've not only dived but thrived, emerging with a trove of skills that have powered the ascent of SaaS startups. My arena? The electrifying realms of deep learning models and data science – a sandbox where creativity meets complexity, sparking ideas that illuminate the tech landscape.
 
-I've dived into the depths and surfaced with skills that have helped me kickstart and grow SaaS startups. My playground is deep learning models and data science – it’s where I get my hands dirty and my brain buzzing with ideas.
+Step off the beaten path and discover a world where code and creativity intertwine. In the fascinating domain of generative art and cellular automata, I craft digital symphonies that echo the intricacies of life and nature. My curiosity doesn't stop there; it extends to the labyrinthine networks of graphs, unraveling the ties that bind ideas and systems. Dive deeper, and you'll find me captivated by the mysteries of neuroscience – a field that offers a kaleidoscope of insights into our very essence.
 
-Curious about what I've been up to? Take a peek at my [blog](/blog) and [creations](/creations)
+When the screens dim, music takes center stage. As an avid music enthusiast, I find solace and inspiration in the harmonious world of melodies and rhythms. My journey through soundscapes has placed me among the top 1% of Spotify users globally – a testament to my passion for exploring the auditory universe in its endless diversity.
 
-Now, let's dive into the fun stuff! Stepping away from the keyboard, you'll find me immersed in the world of generative art, cellular automata, and creating simulations that mimic the complexities of life and nature. I'm equally fascinated by graph networks, exploring the interconnectedness of systems and ideas. Neuroscience also captivates me deeply – it's a field I can’t rave about enough, given its insights into our minds and behaviors.
-
-And when it's time to unwind? Music is my go-to. I'm such a music buff that I've consistently landed in the top 1% of Spotify users for several years – a testament to the countless hours I spend exploring diverse melodies and rhythms.
-
-If you're into blending art, science, tech, with a good beat, or just want to exchange thoughts on the universe's wild complexities, let’s strike up a conversation. I’m always up for sharing ideas, creating something new, or simply enjoying the marvels of our world and its tunes.
+If your world orbits at the intersection of art, science, and technology, pulsating to the rhythm of innovation, let's converge. Whether it's to exchange profound thoughts on the cosmos, brainstorm groundbreaking ideas, or simply bask in the wonders of our world and its melodies, I'm here. Let's ignite conversations, create the unimaginable, and dance to the tunes of this extraordinary universe.
 
 
 <div flex-auto />
@@ -25,6 +21,7 @@ If you're into blending art, science, tech, with a good beat, or just want to ex
 Find me on
 
 <p flex="~ gap-3 wrap" class="mt--2!">
-  <a href="https://github.com/sdhnshu" target="_blank"><span op75 i-simple-icons-github /> GitHub</a>
-  <a href="https://www.twitter.com/sdhnshu0" target="_blank"><span op75 i-simple-icons-twitter /> Twitter</a>
+  <a href="https://linkedin.com/in/theonesud" target="_blank"><span op75 i-simple-icons-linkedin /> LinkedIn</a>
+  <a href="https://github.com/theonesud" target="_blank"><span op75 i-simple-icons-github /> GitHub</a>
+  <a href="https://www.twitter.com/theonesud" target="_blank"><span op75 i-simple-icons-twitter /> Twitter</a>
 </p>
