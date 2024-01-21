@@ -1,7 +1,7 @@
 ---
 title: Sudhanshu Passi
 description: Sudhanshu Passi's Portfolio
-image: https://antfu.me/og.png
+image: https://theonesud.com/og.png
 plum: true
 ---
 

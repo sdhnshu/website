@@ -6,10 +6,10 @@ import MarkdownIt from 'markdown-it'
 import type { FeedOptions, Item } from 'feed'
 import { Feed } from 'feed'
 
-const DOMAIN = 'https://antfu.me'
+const DOMAIN = 'https://theonesud.com'
 const AUTHOR = {
   name: 'Sudhanshu Passi',
-  email: 'hi@antfu.me',
+  email: 'sudhanshupassi@gmail.com',
   link: DOMAIN,
 }
 const markdown = MarkdownIt({
@@ -28,13 +28,13 @@ async function buildBlogRSS() {
   const options = {
     title: 'Sudhanshu Passi',
     description: 'Sudhanshu Passi\' Blog',
-    id: 'https://antfu.me/',
-    link: 'https://antfu.me/',
+    id: 'https://theonesud.com/',
+    link: 'https://theonesud.com/',
     copyright: 'CC BY-NC-SA 4.0 2021 © Sudhanshu Passi',
     feedLinks: {
-      json: 'https://antfu.me/feed.json',
-      atom: 'https://antfu.me/feed.atom',
-      rss: 'https://antfu.me/feed.xml',
+      json: 'https://theonesud.com/feed.json',
+      atom: 'https://theonesud.com/feed.atom',
+      rss: 'https://theonesud.com/feed.xml',
     },
   }
   const posts: any[] = (
@@ -71,8 +71,8 @@ async function buildBlogRSS() {
 
 async function writeFeed(name: string, options: FeedOptions, items: Item[]) {
   options.author = AUTHOR
-  options.image = 'https://antfu.me/avatar.png'
-  options.favicon = 'https://antfu.me/logo.png'
+  options.image = 'https://theonesud.com/avatar.png'
+  options.favicon = 'https://theonesud.com/favicon.png'
 
   const feed = new Feed(options)
 

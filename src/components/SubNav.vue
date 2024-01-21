@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
-import { englishOnly } from '../logics'
 
 const inactiveStyle = 'opacity-20 hover:opacity-50'
 const activeStyle = 'opacity-100 underline'
@@ -16,7 +15,7 @@ const route = useRoute()
     </button> -->
 
     <div mb-0 flex="~ col gap-1 sm:row sm:gap-3 wrap" text-3xl>
-      <RouterLink to="/blog" class="!border-none" :class="route.path === '/blog' ? activeStyle : inactiveStyle">
+      <RouterLink to="/posts" class="!border-none" :class="route.path === '/posts' ? activeStyle : inactiveStyle">
         Blog
       </RouterLink>
       <!-- <RouterLink to="/talks" class="!border-none" :class="route.path === '/talks' ? activeStyle : inactiveStyle">
@@ -28,9 +27,9 @@ const route = useRoute()
       <RouterLink to="/streams" class="!border-none" :class="route.path === '/streams' ? activeStyle : inactiveStyle">
         Streams
       </RouterLink> -->
-      <RouterLink to="/creations" class="!border-none" :class="route.path === '/creations' ? activeStyle : inactiveStyle">
+      <!-- <RouterLink to="/creations" class="!border-none" :class="route.path === '/creations' ? activeStyle : inactiveStyle">
         Creations
-      </RouterLink>
+      </RouterLink> -->
     </div>
   </div>
 </template>
