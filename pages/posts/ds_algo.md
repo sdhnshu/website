@@ -7,7 +7,75 @@ type: blog
 ---
 
 ## Time Complexity
-- python `sort()`: O(nlogn)
+- sort(): O(nlogn)
+- heaps
+    - top(): O(1)
+    - insert(): O(logn)
+    - remove(): O(logn)
+    - heapify(): O(n)  # convert a list into a heap
+- binary search: O(logn)
+- hashmaps:
+    - search: O(1)
+    - insert: O(1)
+    - remove: O(1)
+
+
+## 6.Top k values, k closest points to origin, network delay time, graph algos, shortest path algos, prims algo, min cost to connect all points
+- minheap, maxheap
+
+
+## 5.Sliding window
+
+
+## 4.Binary search: search for a number, search a 2d matrix
+- sorted array, start from halfway point, eleminate one side
+
+
+## 3.DFS, BFS: number of islands
+- trees, graphs, matrices
+
+BFS in a tree (level order traversal):
+use a queue
+- add root's the children to the queue
+- remove first element from the queue, add its children to the queue
+
+
+DFS in a tree:
+- use any: inorder (left, root, right), preorder (root, left, right), postorder (left, right, post)
+
+
+DFS in a cyclic graph:
+- as you go, mark visited nodes. once reached the deepest end, backtrack back to the start
+
+
+Topological sort:
+- directed acyclic graph (DAG): eg: tasks that depend on each other
+Topological sort = convert a DAG into a linear graph: where all the dependencies are listed in a order
+using dfs:
+use a stack:
+start from one node, traverse to the deepest end, while backtracking, add them to a stack
+the stack top to bottom is one topological sort. can have many
+
+
+
+## 2.Recusrion: combination sum, n-queens
+backtracking, dp, memoization
+
+
+## 1.Hashmaps: two sum
+
+
+
+## 1.two pointers
+- sorted array, keep each pointer at each end, decrease the right if the sum is > expected, increase the left if sum is < expected
+
+
+## 2.divide and conquer
+- used in merge sort
+
+## 3.k way merge
+- divide arrays into single arrays and
+
 
 
 ## Write the code for a Binary Search Tree
@@ -154,6 +222,9 @@ def calculate_page_rank_from_folder(folder_path):
 ```
 
 ## Reference Resources
+- https://www.youtube.com/watch?v=ft0owvS5tQA  # top 6 coding interview questions
+- https://youtu.be/guKRryH1yho?si=yXwZF6hGAf-7Wi1E  # Top 7 Algorithms for Coding Interviews
+- https://www.youtube.com/@tryexponent/playlists
 - https://seanprashad.com/leetcode-patterns/
 - https://github.com/donnemartin/system-design-primer
 - https://github.com/checkcheckzz/system-design-interview
